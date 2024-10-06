@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 const client_id = "38a2afec68e2505b2d742bbf2e8dea37";
-const redirect_uri = "https://whippedf4.hyee34.site/login";
+const redirect_uri = "https://whipped.hyee34.site/login";
 const client_secret = "YOUR_CLIENT_SECRET"; // Add your client secret here if required
 
 app.get('/auth/kakao/callback', async (req, res) => {
